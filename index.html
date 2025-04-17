@@ -3,20 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>To My Love 💖</title>
+  <title>To My Friend 💖</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Hi My Love ❤️</h1>
+    <h1>Hi My Friend ❤️</h1>
     <p id="message">I made this little page just for you...</p>
     <button onclick="showLove()">Click me 💌</button>
+    
     <div id="surprise" class="hidden">
-      <p>You are the reason behind my smile 😊</p>
-      <p>I love you more than words can say! 💕</p>
-      <img src="https://media.giphy.com/media/3oz8xAFtqoOUUrsh7W/giphy.gif" alt="Love gif">
+      <p class="letter">
+        Dear Pranali,<br><br>
+        Main jaanta hoon abhi tum ek aise mod par ho jahan har cheez tooti hui si lagti hai. Kisi par dil se bharosa karke, uska saath chhod dena asaan nahi hota. Dil to bas wahi chaahta hai jo chala gaya, par kabhi kabhi khud se zyada pyar karna zaroori hota hai.<br><br>
+        Jo chhod kar chala gaya, shayad wo tumhare pyaar ke layak hi nahi tha. Lekin tum? Tum ek strong, beautiful aur pure dil wali ladki ho. Har raat ke baad subah zaroor aati hai, aur tumhari zindagi bhi ek naye savere ka intezaar kar rahi hai.<br><br>
+        Tum kisi ke dhokhe se nahi, apne jazbaat sambhalne se strong bano.<br>
+        Tumhara asli pyaar abhi milna baaki hai—jo tumhe samjhega, sar aankhon pe rakhega, aur kabhi rulayega nahi.<br><br>
+        Main hamesha tumhare saath hoon, har ek aansu mein, har ek muskurahat mein.<br><br>
+        — Tumhara Kalu
+      </p>
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJhMmVuYzJtNnBsejh2d3FzMzF1N3Rld3A5YXJka2E3bnMyajV5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bwBYKgvEsKt4rsI1jJ/giphy.gif" alt="Love gif">
     </div>
   </div>
-  <script src="script.js"></script>
+
+  <script>
+    function showLove() {
+      document.getElementById('surprise').classList.remove('hidden');
+    }
+  </script>
 </body>
 </html>
+
