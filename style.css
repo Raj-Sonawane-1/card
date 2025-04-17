@@ -15,6 +15,7 @@ body {
     background-color: #ffe6f0;
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
     max-width: 400px;
+    margin-top: 50px;
   }
   
   h1 {
@@ -44,5 +45,9 @@ body {
   
   .hidden {
     display: none;
+    
+  }
+  .letter{
+    margin-top: 80px;
   }
   
